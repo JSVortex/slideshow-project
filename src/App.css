@@ -1,0 +1,25 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body {
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+
+  @keyframes button-animation {
+    0%   {top:82em;}
+    100% {top:73.8em;}
+  }
+  .bc-anim {
+    animation-name: button-animation;
+    animation-duration: 0.4s;
+  }
+  @keyframes navbar-animation {
+    0%   {top:-7em;}
+    100% {top:0em;}
+  }
+  .nav-anim {
+    animation-name: navbar-animation;
+    animation-duration: 0.4s;
+  }
+  /* add prefer reduced motion media query */
+  
