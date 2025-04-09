@@ -1,50 +1,34 @@
-# React + TypeScript + Vite
+# React Slideshow Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a project I've been working on for a little bit by myself to learn React. I thought I should upload it here in case anyone wants to use it.
+This implementation also includes Bootstrap. (https://getbootstrap.com)
+If you want any features added, please let me know.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Current features include:
 
-## Expanding the ESLint configuration
+- Slideshow functionality
+- The ability to set image set
+- The ability to add images to the current set
+- Ability to fullscreen the image
+- Ability to go forward or backwards through images
+- Ability to set timer for image automatically changing
+- (partially implemented) Tracking gif lengths to accurately play all the way through before changing image
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Controls
 
-- Configure the top-level `parserOptions` property like this:
+Move forward through images: D key or Right Arrow Key
+Move backward through images: A key or Left Arrow Key
+Fullscreen within page: W key or Up Arrow Key
+Autoplay: C key
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Planned Features
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- Better video functionality
+- Support more types of images and videos
+- Rework the timer
+- Finish gif functionality + add it to videos
+- Auto-video playing / possibly different player
+- Menus with more settings
+- Delay on changing timer length
