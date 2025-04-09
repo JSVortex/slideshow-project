@@ -1,7 +1,7 @@
 # React Slideshow Project
 
 This is a project I've been working on for a little bit by myself to learn React. I thought I should upload it here in case anyone wants to use it.
-This implementation also includes Bootstrap. (https://getbootstrap.com)
+This implementation also includes Bootstrap (https://getbootstrap.com).
 If you want any features added, please let me know.
 
 ## Features
@@ -18,10 +18,10 @@ Current features include:
 
 ## Controls
 
-Move forward through images: D key or Right Arrow Key
-Move backward through images: A key or Left Arrow Key
-Fullscreen within page: W key or Up Arrow Key
-Autoplay: C key
+- Move forward through images: D key or Right Arrow Key
+- Move backward through images: A key or Left Arrow Key
+- Fullscreen within page: W key or Up Arrow Key
+- Autoplay: C key
 
 ## Planned Features
 
@@ -32,3 +32,4 @@ Autoplay: C key
 - Auto-video playing / possibly different player
 - Menus with more settings
 - Delay on changing timer length
+- Possible custom API access so custom slideshows can be played directly from another source.
